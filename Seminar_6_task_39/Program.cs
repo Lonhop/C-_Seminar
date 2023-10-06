@@ -1,4 +1,5 @@
-﻿int [] GenerateRandomArray(int length, int minValue, int maxValue)
+﻿Console.Clear();
+int [] GenerateRandomArray(int length, int minValue, int maxValue)
 {
     int[] array = new int[length];
     Random rnd = new Random();
